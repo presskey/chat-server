@@ -1,6 +1,6 @@
 # Simple Chat Server
 
-Minimal Rails application with [Faye](http://faye.jcoglan.com) middleware and [Thin](http://code.macournoyer.com/thin/) as default web server.
+Minimal Rails application with [Faye](http://faye.jcoglan.com) middleware and [Thin](http://code.macournoyer.com/thin/) as a default web server.
 
 ## Installation
 ```
@@ -13,6 +13,8 @@ $ bundle install
 ```
 $ rails s
 ```
+
+Faye service is mounted at root path, clients should connect to [http://localhost:3000](http://localhost:3000)
 
 ## License
 Simple Chat Server is released under the [MIT License](http://www.opensource.org/licenses/MIT).
