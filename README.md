@@ -1,6 +1,6 @@
 # Simple Chat Server
 
-Minimal Rails application with Faye middleware and Thin as default web server.
+Minimal Rails application with [Faye](http://faye.jcoglan.com) middleware and [Thin](http://code.macournoyer.com/thin/) as default web server.
 
 ## Installation
 ```
